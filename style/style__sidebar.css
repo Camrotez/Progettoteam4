@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+}
+.feather{
+    color: white;
+    width:80px;
+    height:30px;
+}
+
+aside{
+    height:100%;
+    width:230px;
+    position:fixed;
+    background-color:black;
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+}
+.home,.search,.library,.playlist,.song{
+    display:flex;
+}
+p{
+    color:white;
+    position:relative;
+    top:8px;
+}
+.logo__img{
+    width:150px;
+    margin:20px;
+    object-fit:cover;
+    
+}
+
+
+ul{
+    list-style: none;
+}
+.par:hover, .feather:hover{
+    color:red;
+}
+
+.endbar{
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    position:fixed;
+    bottom:0;
+}
