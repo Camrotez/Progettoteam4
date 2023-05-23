@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body{
+  width: 100vw;
+}
+
 body {
   background-color: white;
   font-family: "Montserrat", sans-serif;
@@ -13,6 +17,7 @@ body {
   justify-content: space-between;
   background-color: #101010;
   padding: 14px 30px;
+  width: calc(100%-230px);
 }
 .topbar .prev-next-buttons button {
   color: #7a7a7a;
