@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-footer {
+  display: flex;
+  position: relative;
+  bottom: -50rem;
+  z-index: 0;
+  gap:200px;
+  width: calc(100%-230px);
+  justify-content: right;
+  padding: 10%;
+   background-color: #121212;
+  font-family: sans-serif;
+}
+.azienda, .community, .link {
+  list-style: none;
+}
+
+.azienda h3, .community h3, .link h3 {
+  color: aliceblue;
+}
+.azienda li, .community li, .link li {
+  line-height: 2rem;
+  padding: 5px 5px 5px 0px;
+}
+li:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+}
+
+.azienda a, .community a, .link a,
+p {
+  font-size: 15px;
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+.trademark {
+  width: 70%;
+  position: absolute;
+  bottom: 1px;
+  line-height: 3rem;
+}
