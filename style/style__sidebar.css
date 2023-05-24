@@ -13,6 +13,7 @@ body{
 }
 
 aside{
+    z-index: 9;
     height:100%;
     width:230px;
     position:fixed;
@@ -20,7 +21,7 @@ aside{
     display:flex;
     gap:20px;
     flex-direction: column;
-    z-index: 1;
+    
 }
 .home,.search,.library,.playlist,.song{
     display:flex;
