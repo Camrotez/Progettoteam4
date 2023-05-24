@@ -5,12 +5,14 @@
 }
 
 .container-footer {
+  left: 230px;
   display: flex;
   position: relative;
-  bottom: -50rem;
+  bottom: -10rem;
   z-index: 0;
+  
   gap:200px;
-  width: calc(100%-230px);
+  width: calc(100% + 30px);
   justify-content: right;
   padding: 10%;
    background-color: #121212;
@@ -44,6 +46,7 @@ p {
 }
 
 .trademark {
+
   width: 70%;
   position: absolute;
   bottom: 1px;

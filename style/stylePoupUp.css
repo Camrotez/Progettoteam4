@@ -11,7 +11,7 @@
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 10;
 }
 .preview h6 {
   color: #ffffff;
