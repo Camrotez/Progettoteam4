@@ -10,6 +10,8 @@ body{
 body {
   background-color: white;
   font-family: "Montserrat", sans-serif;
+
+  
 }
 
 .topbar {
@@ -18,6 +20,8 @@ body {
   background-color: #101010;
   padding: 14px 30px;
   width: calc(100%-230px);
+  position: fixed;
+  width: 100%;
 }
 .topbar .prev-next-buttons button {
   color: #7a7a7a;
@@ -28,6 +32,10 @@ body {
   border: 0px;
   background-color: rgb(23, 22, 22);
   margin-right: 10px;
+  
+}
+.topbar .prev-next-buttons {
+  margin-left: 260px;
 }
 .topbar .navbar {
   display: flex;
