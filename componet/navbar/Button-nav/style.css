@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(183, 181, 178);
+  padding: 14px 30px;
+  width: calc(100%-230px);
+  position: fixed;
+  width: 100%;
+  z-index: 8;
+}
+.navbar a:hover,
+.topbar .navbar button {
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 46px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.topbar .navbar button:hover,
+.topbar .navbar button:active,
+.topbar .navbar button:focus {
+  background-color: #f2f2f2;
+}
+.topbar .navbar {
+  display: inline-block;
+  margin: 0px 8px;
+  width: 70px;
+}
