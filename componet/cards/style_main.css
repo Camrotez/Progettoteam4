@@ -3,21 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-main{
-  position: relative;
-  left: 260px;
-  top: 100px ;
-}
 
 @font-face {
-  font-family: gotham;
-  src: url(./font.ttf);
+  font-family: "Font";
+  src: url(/font/GothamLight.ttf);
 }
 body {
   background-color: #1a1a1a;
-  height: 100vh;
+  height: 50vh;
   color: #ffffff;
-  font-family: gotham;
+  font-family: Font;
 }
 body .link__view {
   text-decoration: none;
@@ -52,7 +47,7 @@ body main .inf .grid .move picture {
   height: 100%;
   position: relative;
   transition: all 0.3s;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 body main .sup .grid .move .move__play,
 body main .inf .grid .move .move__play {
@@ -116,10 +111,11 @@ body main .sup .grid .card__text .card__text__h3,
 body main .inf .grid .card__text .card__text__h3 {
   width: 100%;
   font-size: 1rem;
-  /* font-family: gotham; */
+  font-family: Font;
 }
 body main .sup .grid .card__text .card__text__p,
 body main .inf .grid .card__text .card__text__p {
+  font-family: Font;
   width: 100%;
   font-size: 0.8rem;
   color: #9d9d9d;
