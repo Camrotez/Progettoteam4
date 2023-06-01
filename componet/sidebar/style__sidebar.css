@@ -11,7 +11,7 @@ body {
 aside {
   z-index: 9;
   height: 100%;
-  width: 230px;
+  width: 12%;
   position: fixed;
   background-color: black;
   display: flex;
