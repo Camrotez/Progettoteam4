@@ -68,6 +68,7 @@ body main .inf .grid .move .picture {
 }
 body main .sup .grid .move .move__play,
 body main .inf .grid .move .move__play {
+  transition: all 1s;
   opacity: 1;
   z-index: 4;
   position: relative;

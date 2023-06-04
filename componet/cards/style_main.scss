@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "Font" ;
-  src: url( /font/GothamLight.ttf) ;
+  src: url( ./element/font/GothamLight.ttf) ;
 }
 
 body {
@@ -25,7 +25,15 @@ body {
     }
   }
   main {
-    
+    margin-left: 10px;
+    width: calc(100% - 12%);
+    max-height: 100% ;
+    position: relative;
+    top: 6rem;
+    left: 10rem;
+    /* position: relative;
+    top: 6rem;
+    left: 12rem; */
     .sup,
     .inf {
       .grid {
@@ -36,17 +44,14 @@ body {
 
         .move {
           picture {
-            width: 100%;
-            height: 100%;
+           transition: ease-in 0.3s;
             position: relative;
-
-            transition: all 0.3s;
             /* background-color: yellow; */
           }
           .move__play {
             transition: all 1s;
             opacity: 1;
-            z-index: 4;
+            z-index: 2;
             position: relative;
             /*   top: 7.375rem; */
             bottom: -6.25rem;
@@ -68,35 +73,26 @@ body {
           .card {
             z-index: 4;
             background: #181818;
-            background: linear-gradient(
-              184deg,
-              rgb(18, 18, 18) 1%,
-              rgba(32, 32, 32, 1) 35%
-            );
-            text-align: center;
-            position: relative;
             /*  display: flexbox;
            content: "";
            height: 100%; */
             max-width: 210px;
             min-width: 150px;
+            min-height: 270px;
             /* height: fit-content; */
             border-radius: 0.625rem;
             &:hover {
               position: relative;
               z-index: 0;
-              background: #181818;
-              background: linear-gradient(
-                184deg,
-                rgb(28, 28, 28, 1) 1%,
-                rgba(29, 29, 29, 1) 35%
-              );
-
+              transform: translateY(1px);
+              background: #242424;
               box-shadow: 4px 4px 4px #181818;
               transition: ease-in 0.5s;
             }
 
             .img__card {
+              position: relative;
+              z-index: 4;
               .img__card__album {
                 position: relative;
                 top: -1rem;
@@ -119,20 +115,21 @@ body {
           display: grid;
           grid-template-columns: 100%;
           grid-template-rows: auto;
-
+          text-align: left;
           color: white;
-          margin-top: -0.5rem;
+          margin-top: 2rem;
+          padding: 0.625rem;
           padding-bottom: 0.625rem;
           .card__text__h3 {
             width: 100%;
-            font-size: 1rem;
+            font-size: 0.8rem;
             font-family: Font;
             
           }
           .card__text__p {
             font-family: Font ;
             width: 100%;
-            font-size: 0.8rem;
+            font-size: 0.7rem;
             color: #9d9d9d;
           }
         }
