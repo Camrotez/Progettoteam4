@@ -6,13 +6,26 @@
 
 @font-face {
   font-family: "Font";
-  src: url(/font/GothamLight.ttf);
+  src: url(../font/GothamLight.ttf);
 }
 body {
   background-color: #1a1a1a;
   height: 100vh;
+  width: 100vw;
+  display: flex;
   color: #ffffff;
   font-family: Font;
+}
+body aside {
+  height: 100%;
+  min-width: 12%;
+  background-color: white;
+}
+body nav {
+  height: 3rem;
+  min-width: 100%;
+  margin: 0 -10px;
+  background-color: white;
 }
 body .link__view {
   text-decoration: none;
@@ -25,6 +38,11 @@ body .link__view {
 body .link__view:hover {
   text-decoration: underline;
 }
+body main {
+  margin-left: 10px;
+  width: 88%;
+  max-height: 100%;
+}
 body main .sup .grid,
 body main .inf .grid {
   display: grid;
@@ -34,6 +52,7 @@ body main .inf .grid {
 }
 body main .sup .grid .move,
 body main .inf .grid .move {
+  transition: ease-in 3s;
   margin: 10px;
   /* display: block; */
   /* height: fit-content; */
@@ -41,17 +60,14 @@ body main .inf .grid .move {
   max-width: 210px;
   min-width: 150px;
 }
-body main .sup .grid .move picture,
-body main .inf .grid .move picture {
-  width: 100%;
-  height: 100%;
+body main .sup .grid .move .picture,
+body main .inf .grid .move .picture {
   position: relative;
-  transition: all 0.3s;
-  /* background-color: yellow; */
+  transition: ease-in 0.3s;
+  /*  background-color: yellow; */
 }
 body main .sup .grid .move .move__play,
 body main .inf .grid .move .move__play {
-  transition: all 1s;
   opacity: 1;
   z-index: 4;
   position: relative;
@@ -65,8 +81,7 @@ body main .inf .grid .move .move__play {
 body main .sup .grid .move .card,
 body main .inf .grid .move .card {
   z-index: 4;
-  background: #181818;
-  background: linear-gradient(184deg, rgb(18, 18, 18) 1%, rgb(32, 32, 32) 35%);
+  background: #171717;
   text-align: center;
   position: relative;
   /*  display: flexbox;
@@ -74,6 +89,7 @@ body main .inf .grid .move .card {
   height: 100%; */
   max-width: 210px;
   min-width: 150px;
+  min-height: 250px;
   /* height: fit-content; */
   border-radius: 0.625rem;
 }
@@ -81,10 +97,10 @@ body main .sup .grid .move .card:hover,
 body main .inf .grid .move .card:hover {
   position: relative;
   z-index: 0;
-  background: #181818;
-  background: linear-gradient(184deg, rgb(28, 28, 28) 1%, rgb(29, 29, 29) 35%);
+  transform: translateY(1px);
+  background: #242424;
   box-shadow: 4px 4px 4px #181818;
-  transition: ease-in 0.5s;
+  transition: ease-in 0.3s;
 }
 body main .sup .grid .move .card .img__card .img__card__album,
 body main .inf .grid .move .card .img__card .img__card__album {
@@ -103,21 +119,24 @@ body main .inf .grid .card__text {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
+  text-align: left;
   color: white;
   margin-top: -0.5rem;
+  padding: 0.625rem;
   padding-bottom: 0.625rem;
 }
 body main .sup .grid .card__text .card__text__h3,
 body main .inf .grid .card__text .card__text__h3 {
   width: 100%;
-  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
   font-family: Font;
 }
 body main .sup .grid .card__text .card__text__p,
 body main .inf .grid .card__text .card__text__p {
   font-family: Font;
   width: 100%;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #9d9d9d;
 }
 
