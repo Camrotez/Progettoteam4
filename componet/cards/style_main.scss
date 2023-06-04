@@ -155,7 +155,7 @@ body {
 #card6 {
   grid-area: card6;
 }
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 1024px) {
   #grid {
     grid-template-columns: repeat(5, minmax(150px, 1fr));
     grid-template-areas: " card1 card2 card3 card4 card5 ";
@@ -165,7 +165,7 @@ body {
     visibility: hidden;
   }
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
   #grid {
     grid-template-columns: repeat(4, minmax(150px, 1fr));
     grid-template-areas: " card1 card2 card3 card4 card5 ";
@@ -175,7 +175,7 @@ body {
     visibility: hidden;
   }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 780px) {
   #grid {
     grid-template-columns: repeat(3, minmax(150px, 1fr));
     grid-template-areas: " card1 card2 card3 card4 card5 ";
@@ -185,7 +185,7 @@ body {
     visibility: hidden;
   }
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
   #grid {
     grid-template-columns: repeat(2, minmax(150px, 1fr));
     grid-template-areas: " card1 card2 card3 card4 card5 ";
