@@ -1,12 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-body{
-    height:100vh;
-    width:100vw;
-    aside{
+aside{
         background-color: black;
         width:12%;
         height:90%;
@@ -22,10 +14,12 @@ body{
     .firstlist{
         margin-top:4rem;
         margin-left:1rem;
+        list-style:none;
     }
     .secondlist{
         margin-top:3rem;
         margin-left:1rem;
+        list-style:none;
         .alone{
             fill: black;
         }
@@ -71,8 +65,6 @@ body{
     
 }
 
-    
-};
 .outside__home:hover,.outside__search:hover,.outside__library:hover
 ,.outside__playlist:hover,.outside__song:hover{
     color:white;
