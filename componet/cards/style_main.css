@@ -27,11 +27,11 @@ body .link__view:hover {
 }
 body main {
   margin-left: 10px;
-  width: 88%;
+  width: 80%;
   max-height: 100%;
   position: relative;
   top: 6rem;
-  left: 160px;
+  left: 20%;
   /* position: relative;
   top: 6rem;
   left: 12rem; */
