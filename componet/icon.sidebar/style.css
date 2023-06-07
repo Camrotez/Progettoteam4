@@ -59,7 +59,7 @@ body aside .outside__playlist__svg {
   justify-content: center;
 }
 body aside .outside__song__svg {
-  background-color: red;
+  background: linear-gradient(135deg, #450af5, #c4efd9);
   height: 24px;
   width: 24px;
   display: flex;
