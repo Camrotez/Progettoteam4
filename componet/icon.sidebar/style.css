@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+body aside {
+  background-color: black;
+  width: 12%;
+  height: 90%;
+}
+body aside .logo {
+  height: 5%;
+}
+body aside .logo .logo__img {
+  height: 3rem;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 1.5rem;
+}
+body aside .firstlist {
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+body aside .secondlist {
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+body aside .secondlist .alone {
+  fill: black;
+}
+body aside .outside__home, body aside .outside__search, body aside .outside__library, body aside .outside__playlist, body aside .outside__song {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  opacity: 0.7;
+}
+body aside svg {
+  fill: white;
+}
+body aside .sidebar__list {
+  text-decoration: none;
+  list-style: none;
+}
+body aside .outside__playlist__svg {
+  background-color: white;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body aside .outside__song__svg {
+  background: linear-gradient(135deg, #450af5, #c4efd9);
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outside__home:hover, .outside__search:hover, .outside__library:hover,
+.outside__playlist:hover, .outside__song:hover {
+  color: white;
+  opacity: 1;
+}/*# sourceMappingURL=style.css.map */
