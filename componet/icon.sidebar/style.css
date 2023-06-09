@@ -1,10 +1,9 @@
 aside {
+  height: 100%;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
   background-color: black;
-  width: 12%;
-  height: 90%;
-}
-aside .logo {
-  height: 5%;
 }
 aside .logo .logo__img {
   height: 3rem;

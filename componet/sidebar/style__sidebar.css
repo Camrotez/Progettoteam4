@@ -1,17 +1,8 @@
-aside {
-  z-index: 9;
-  height: 90%;
-  width: 12%;
-  position: fixed;
-  background-color: black;
-}
-
 .endbar {
-  padding: 30px;
+  margin-top: auto;
+  padding: 0px 30px 120px 30px;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  bottom: 0;
   gap: 30px;
 }
 .endbar a {
