@@ -19,7 +19,7 @@ body .link__view {
   float: right;
   position: relative;
   top: -1rem;
-  right: 6.5rem;
+  right: 3.5rem;
 }
 body .link__view:hover {
   text-decoration: underline;
@@ -70,8 +70,8 @@ body main .inf .grid .move .card {
   /*  display: flexbox;
   content: "";
   height: 100%; */
-  max-width: 210px;
-  min-width: 150px;
+  /* max-width: 210px;
+  min-width: 150px; */
   min-height: 270px;
   /* height: fit-content; */
   border-radius: 0.625rem;
@@ -202,7 +202,7 @@ body main .inf .grid .card__text .card__text__p {
 }
 @media screen and (max-width: 480px) {
   #grid {
-    grid-template-columns: 2fr;
+    grid-template-columns: minmax(1fr, 150px);
     grid-template-rows: 40%;
     grid-template-areas: " card1 card2 card3 card4 card5 ";
   }
