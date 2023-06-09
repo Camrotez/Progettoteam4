@@ -14,3 +14,9 @@ body{
     color: #ffffff;
     font-family: Font ;
 }
+@media(max-width:820px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
