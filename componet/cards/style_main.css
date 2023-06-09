@@ -154,6 +154,7 @@ body main .inf .grid .card__text .card__text__p {
 @media screen and (max-width: 1100px) {
   #grid {
     grid-template-columns: repeat(5, minmax(150px, 1fr));
+    grid-template-rows: 40%;
     grid-template-areas: " card1 card2 card3 card4 card5 ";
   }
   #card6 {
@@ -172,21 +173,26 @@ body main .inf .grid .card__text .card__text__p {
   }
 }
 @media screen and (max-width: 820px) {
-  #grid {
-    grid-template-columns: repeat(3, minmax(150px, 1fr));
-    grid-template-areas: " card1 card2 card3 card4 card5 ";
+  /*   #grid {
+      grid-template-columns: repeat(3, minmax(150px, 1fr));
+      grid-template-areas: " card1 card2 card3 card4 card5 ";
+    } */
+  #main {
+    margin-top: 20px;
+    width: 100%;
   }
-  #card4 {
-    display: none;
-    visibility: hidden;
-  }
+  /*   #card4 {
+      display: none;
+      visibility: hidden;
+    }  */
 }
 @media screen and (max-width: 650px) {
   #grid {
-    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    grid-template-rows: 40%;
     grid-template-areas: " card1 card2 card3 card4 card5 ";
   }
-  #card3 {
+  #card4 {
     display: none;
     visibility: hidden;
   }
@@ -196,10 +202,11 @@ body main .inf .grid .card__text .card__text__p {
 }
 @media screen and (max-width: 480px) {
   #grid {
-    grid-template-columns: minmax(150px, 1fr);
+    grid-template-columns: 2fr;
+    grid-template-rows: 40%;
     grid-template-areas: " card1 card2 card3 card4 card5 ";
   }
-  #card2 {
+  #card3 {
     display: none;
     visibility: hidden;
   }
