@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./componet/icon.sidebar/style.css" />
+    <link rel="stylesheet" href="./componet/navbar/styleNavbar.css">
     <link rel="stylesheet" href="./componet/sidebar/style__sidebar.css" />
     <link rel="stylesheet" href="./componet/cards/style_main.css" />
     <link rel="stylesheet" href="./componet/skeleton/skeleton.css" />
@@ -196,9 +197,38 @@
     </aside>
     <!-- here we have our nav and main -->
     <main id="main">
+      <nav class="main-container" id="nav">
+        <div class="topbar">
+          <div class="prev-next-buttons">
+            <button type="button" class="">
+              <img
+                src="./assets/img_topbar/icons8-chevron-left-16.png"
+                alt="chevronLeft"
+                class="chevron"
+              />
+            </button>
+            <button type="button" class="">
+              <img
+                src="./assets/img_topbar/icons8-chevron-right-16.png"
+                alt="chevronRight"
+                class="chevron"
+              />
+            </button>
+          </div>
+  
+          <div class="navbar">
+            <ul>
+              <li>
+                <a href="#">Iscriviti</a>
+              </li>
+            </ul>
+            <button type="button">Accedi</button>
+          </div>
+        </div>
+      </nav>
       <div class="sup">
         <div class="sup__bar">
-        <h3>Focus</h3>
+        <h3 class="int">Focus</h3>
         <a class="link__view" href="">Mostra tutto</a>
         </div>
         <div class="grid" id="grid">
@@ -323,7 +353,7 @@
         </div>
       </div>
       <div class="inf">
-        <h3>Playlist Spotify</h3>
+        <h3 class="int">Playlist Spotify</h3>
         <a class="link__view" href="">Mostra tutto</a>
         <div class="grid" id="grid">
           <a class="move" id="card1" href="card.html">

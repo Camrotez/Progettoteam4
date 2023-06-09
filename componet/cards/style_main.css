@@ -25,8 +25,10 @@ body .link__view:hover {
   text-decoration: underline;
 }
 body main {
+  width: calc(100% - 260px);
+}
+body main .int {
   margin-left: 20px;
-  width: calc(100% - 250px);
 }
 body main .sup .grid,
 body main .inf .grid {
@@ -107,7 +109,6 @@ body main .inf .grid .card__text {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
-  text-align: left;
   color: white;
   margin-top: 2rem;
   padding: 0.625rem;
@@ -118,6 +119,7 @@ body main .inf .grid .card__text .card__text__h3 {
   width: 100%;
   font-size: 0.8rem;
   font-family: Font;
+  text-align: left;
 }
 body main .sup .grid .card__text .card__text__p,
 body main .inf .grid .card__text .card__text__p {
@@ -125,6 +127,7 @@ body main .inf .grid .card__text .card__text__p {
   width: 100%;
   font-size: 0.7rem;
   color: #9d9d9d;
+  text-align: left;
 }
 
 #card1 {
