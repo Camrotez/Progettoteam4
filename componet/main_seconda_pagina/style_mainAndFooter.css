@@ -21,19 +21,13 @@ body {
   display: flex;
   color: white;
 }
-body aside {
-  width: 20%;
-}
 body main {
-  width: 79%;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 260px);
   background-color: transparent;
   font-size: 0.7rem;
   height: auto;
-}
-body main .topbar {
-  height: 3rem;
-  width: 100%;
-  background-color: transparent;
 }
 body main .presongs {
   height: 2rem;
@@ -186,4 +180,4 @@ footer .trademark p {
   #media_album {
     display: none;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style_mainAndFooter.css.map */
