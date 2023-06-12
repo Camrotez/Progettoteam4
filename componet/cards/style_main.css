@@ -27,6 +27,7 @@ body .link__view:hover {
 body main {
   margin-left: 260px;
   width: calc(100% - 260px);
+  overflow-x: hidden;
 }
 body main .int {
   margin-left: 20px;

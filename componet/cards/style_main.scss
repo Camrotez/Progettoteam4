@@ -28,6 +28,7 @@ body {
   main {
     margin-left:260px;
     width: calc(100% - 260px );
+    overflow-x:hidden;
     .int{
       margin-left:20px;
     }
