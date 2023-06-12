@@ -25,6 +25,7 @@ body .link__view:hover {
   text-decoration: underline;
 }
 body main {
+  margin-left: 260px;
   width: calc(100% - 260px);
 }
 body main .int {
@@ -183,6 +184,7 @@ body main .inf .grid .card__text .card__text__p {
   #main {
     margin-top: 20px;
     width: 100%;
+    margin-left: 10px;
   }
   /*   #card4 {
       display: none;

@@ -8,24 +8,32 @@
     display: flex;
     flex-direction: column;
     padding: 0.5rem 2rem 2rem 2rem;
+    color: black;
   }
   .premium .esc {
     margin-left: auto;
     margin-top: 1rem;
   }
+  .premium .esc svg {
+    height: 1rem;
+  }
   .premium .premium__prop h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    line-height: 1rem;
   }
   .premium .premium__prop p {
-    font-size: 1.2rem;
-    margin-top: -30px;
+    font-size: 1rem;
+    margin-top: 15px;
   }
   .premium .premium__prop button {
     background-color: black;
     color: white;
     border-radius: 1.5rem;
-    font-size: 1rem;
-    padding: 0.6rem;
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem 0.6rem 1rem;
     font-weight: bold;
+    margin-top: 1rem;
   }
 }/*# sourceMappingURL=media.css.map */

@@ -2,9 +2,11 @@ aside{
     
     min-width:260px;
     display: flex;
-    position:static;
+    position: fixed;
+    z-index:10;
     flex-direction: column;
     background-color:black;
+    height:100%;
         .logo{
             .media_stuff{
                 display: none;

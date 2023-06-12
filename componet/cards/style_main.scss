@@ -26,11 +26,10 @@ body {
   }
   
   main {
-    
-    
+    margin-left:260px;
     width: calc(100% - 260px );
     .int{
-      margin-left: 20px;
+      margin-left:20px;
     }
     .sup,
     .inf {
@@ -176,7 +175,7 @@ body {
   }
 }
 @media screen and (max-width:820px) {
-
+      
   
 /*   #grid {
     grid-template-columns: repeat(3, minmax(150px, 1fr));
@@ -185,6 +184,7 @@ body {
  #main{
   margin-top: 20px;
   width: 100%;
+  margin-left:10px;
   
  }
 /*   #card4 {

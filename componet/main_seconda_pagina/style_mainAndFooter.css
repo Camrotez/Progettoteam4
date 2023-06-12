@@ -26,8 +26,9 @@ body main {
   flex-direction: column;
   width: calc(100% - 260px);
   background-color: transparent;
-  font-size: 0.7rem;
+  font-size: 1rem;
   height: auto;
+  margin-left: 260px;
 }
 body main .presongs {
   height: 2rem;
@@ -40,6 +41,8 @@ body main .presongs {
 body main .presongs .presong__list {
   align-items: center;
   display: flex;
+  position: relative;
+  z-index: 10;
   list-style: none;
   flex-direction: row;
   height: 100%;

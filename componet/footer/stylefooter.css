@@ -1,3 +1,7 @@
+footer {
+  margin-top: 6rem;
+  padding-bottom: 5rem;
+}
 footer .trademark {
   height: 5rem;
   display: flex;
