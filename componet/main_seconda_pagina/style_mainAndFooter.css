@@ -182,4 +182,10 @@ footer .trademark p {
   #media_album {
     display: none;
   }
+}
+@media (max-width: 820px) {
+  #main {
+    width: 100%;
+    margin: 0;
+  }
 }/*# sourceMappingURL=style_mainAndFooter.css.map */
