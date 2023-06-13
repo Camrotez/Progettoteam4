@@ -32,6 +32,9 @@ body main {
 body main .int {
   margin-left: 20px;
 }
+body main .sup {
+  padding-top: 100px;
+}
 body main .sup .grid,
 body main .inf .grid {
   display: grid;
