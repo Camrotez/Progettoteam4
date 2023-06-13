@@ -148,6 +148,7 @@ body {
   }
 }
 footer{
+  margin-top:5rem;
   .trademark{
     height: 5rem;
     display: flex;
@@ -174,7 +175,7 @@ footer{
   flex-wrap: wrap;
   .general-info,.community-info,.link-info{
     width: 25%;
-    min-width: 100px;
+    min-width: 150px;
     ul{
       list-style: none;
       display: flex;
@@ -202,5 +203,10 @@ footer{
   #main{
     width: 100%;
     margin: 0;
+    .presongs{
+      position: sticky;
+      top:69px;
+      width:101%;
+  }
   }
 }

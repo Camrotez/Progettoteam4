@@ -94,7 +94,6 @@
   .buttonInner {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap:2rem;
     margin-left:1rem;
     margin:2rem;
@@ -147,6 +146,9 @@
     
   }
   @media screen and (max-width: 820px) {
+    .buttonInner {
+      justify-content: center;
+    }
     .containar {
       flex-direction: column !important;
       gap: 8px;

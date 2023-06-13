@@ -133,6 +133,9 @@ body main .list__songs ol li .last__div .heart, body main .list__songs ol li .la
   fill: white;
 }
 
+footer {
+  margin-top: 5rem;
+}
 footer .trademark {
   height: 5rem;
   display: flex;
@@ -160,7 +163,7 @@ footer .trademark p {
 }
 .container-footer .general-info, .container-footer .community-info, .container-footer .link-info {
   width: 25%;
-  min-width: 100px;
+  min-width: 150px;
 }
 .container-footer .general-info ul, .container-footer .community-info ul, .container-footer .link-info ul {
   list-style: none;
@@ -188,5 +191,10 @@ footer .trademark p {
   #main {
     width: 100%;
     margin: 0;
+  }
+  #main .presongs {
+    position: sticky;
+    top: 69px;
+    width: 101%;
   }
 }/*# sourceMappingURL=style_mainAndFooter.css.map */
