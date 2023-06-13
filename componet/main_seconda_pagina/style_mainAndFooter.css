@@ -3,7 +3,7 @@
   src: url(./font/GothamLight.ttf);
 }
 * {
-  font-family: font;
+  font-family: "Circular Std", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -77,6 +77,7 @@ body main .presongs .presong__list .breaker {
 }
 body main .list__songs {
   display: block;
+  color: rgba(255, 255, 255, 0.775);
 }
 body main .list__songs ol {
   width: 100%;
@@ -99,6 +100,14 @@ body main .list__songs ol li .songs__img {
   width: 30%;
   display: flex;
 }
+body main .list__songs ol li .songs__img .number {
+  align-self: center;
+  width: 2ch;
+}
+body main .list__songs ol li .songs__img .mobile {
+  display: none;
+  fill: white;
+}
 body main .list__songs ol li .songs__img .songs__name {
   display: flex;
   flex-direction: column;
@@ -108,6 +117,10 @@ body main .list__songs ol li .songs__img .songs__name {
 }
 body main .list__songs ol li .songs__img .songs__name .title {
   font-weight: bold;
+}
+body main .list__songs ol li .songs__img .songs__name .autore {
+  color: rgba(255, 255, 255, 0.566);
+  font-size: 0.9rem;
 }
 body main .list__songs ol li {
   /*   .uploadDate{
@@ -134,7 +147,7 @@ body main .list__songs ol li .last__div .heart, body main .list__songs ol li .la
 }
 
 footer {
-  margin-top: 5rem;
+  padding-top: 5rem;
 }
 footer .trademark {
   height: 5rem;
@@ -188,13 +201,33 @@ footer .trademark p {
   }
 }
 @media (max-width: 820px) {
+  #aside {
+    background-color: rgb(52, 60, 69);
+  }
   #main {
     width: 100%;
     margin: 0;
   }
-  #main .presongs {
-    position: sticky;
-    top: 69px;
-    width: 101%;
+  #main #presongs {
+    display: none;
+  }
+  #main footer {
+    background-color: #000000;
+  }
+  #main #list__songs {
+    background-color: #000000;
+    font-weight: lighter;
+  }
+  #main #hidden {
+    display: none;
+  }
+  #main #mobile {
+    display: contents;
+  }
+  #main .songs__img {
+    width: calc(98% - 2ch);
+  }
+  #main li {
+    width: 97%;
   }
 }/*# sourceMappingURL=style_mainAndFooter.css.map */

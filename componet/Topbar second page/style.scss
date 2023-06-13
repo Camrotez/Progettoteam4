@@ -3,7 +3,7 @@
     margin: 0;
   }
   body {
-    background-color: #121212;
+    /* background-color: #121212; */
     font-family: "Montserrat", sans-serif;
   }
   .main-container {
@@ -95,6 +95,7 @@
     display: flex;
     align-items: center;
     gap:2rem;
+   
     margin-left:1rem;
     margin:2rem;
   }
@@ -149,17 +150,22 @@
     .buttonInner {
       justify-content: center;
     }
-    .containar {
+    
+    #buttonInner{
+      background-color: transparent;
+    }
+    #topbar{
+      background: rgb(93,108,123);
+      background: linear-gradient(180deg, rgba(93,108,123,1) 0%, rgba(0,0,0,1) 100%);
+    }
+
+    #containar {
       flex-direction: column !important;
       gap: 8px;
       padding: 72px 16px 16px;
       z-index: 0;
-      background: linear-gradient(
-        0,
-        rgb(124, 144, 163) 30%,
-        rgb(86, 100, 113) 51%,
-        rgb(77, 89, 102) 100%
-      );
+      background:none;
+     
     }
     h1 {
       font-size: 32px;

@@ -3,7 +3,7 @@
   src: url(./font/GothamLight.ttf);
 }
 * {
-  font-family: font;
+  font-family: "Circular Std", sans-serif;;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +11,7 @@
 html{
   overflow-x: hidden;
 }
+
 body {
     
     background: rgb(57,67,76);
@@ -81,6 +82,7 @@ body {
     }
     .list__songs {
         display: block;
+        color: rgba(255, 255, 255, 0.775);
       ol {
         width: 100%;
         li {
@@ -103,7 +105,15 @@ body {
           .songs__img{
             width: 30%;
             display: flex;
-
+            .number{
+              align-self: center;
+              width: 2ch;
+            }
+            .mobile{
+              display: none;
+              fill: white;
+              
+            }
             .songs__name {
               display: flex;
               flex-direction: column;
@@ -113,6 +123,10 @@ body {
               
               .title {
                 font-weight: bold;
+              }
+              .autore{
+                color: rgba(255, 255, 255, 0.566);
+                font-size: 0.9rem;
               }
             }
           }
@@ -148,7 +162,7 @@ body {
   }
 }
 footer{
-  margin-top:5rem;
+  padding-top:5rem;
   .trademark{
     height: 5rem;
     display: flex;
@@ -200,13 +214,35 @@ footer{
   }
 }
 @media (max-width:820px) {
+  #aside{
+    background-color: rgb(52, 60, 69);
+  }
   #main{
     width: 100%;
     margin: 0;
-    .presongs{
-      position: sticky;
-      top:69px;
-      width:101%;
+    
+    #presongs{
+      display:none;
+  }
+  footer{
+    background-color: #000000;
+  }
+  #list__songs{
+    background-color: #000000;
+    font-weight: lighter;
+    
+  }
+  #hidden{
+    display:none;
+  }
+  #mobile{
+    display:contents;
+  }
+  .songs__img{
+    width: calc(98% - 2ch);
+  }
+  li{
+    width: 97%;
   }
   }
 }
