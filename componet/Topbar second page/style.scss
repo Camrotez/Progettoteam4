@@ -70,7 +70,7 @@ body {
   /* margin-right: 23px; */
   // box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
 }
-h1 {
+.big-title {
   font-family: "Circular Std", sans-serif;
   color: white;
   font-weight: 900;
@@ -135,6 +135,7 @@ h1 {
 .dots {
   margin-left: 1rem;
 }
+feature/top-bar
 .share {
   display: none;
 }
@@ -187,3 +188,14 @@ h1 {
     margin-left: 1rem;
   }
 }
+@media (max-width:1250px) {
+  #big-title{
+    font-size: 4rem;
+  }
+}
+@media (max-width:950px) {
+  #big-title{
+    font-size: 2rem;
+  }
+}
+

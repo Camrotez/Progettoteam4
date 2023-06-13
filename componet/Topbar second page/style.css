@@ -72,7 +72,7 @@ body {
   /* margin-right: 23px; */
 }
 
-h1 {
+.big-title {
   font-family: "Circular Std", sans-serif;
   color: white;
   font-weight: 900;
@@ -144,6 +144,7 @@ h1 {
   margin-left: 1rem;
 }
 
+ feature/top-bar
 .share {
   display: none;
 }
@@ -190,5 +191,14 @@ h1 {
   .share {
     display: block;
     margin-left: 1rem;
+
+@media (max-width: 1250px) {
+  #big-title {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 950px) {
+  #big-title {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
