@@ -6,10 +6,8 @@ body {
     main{
       .main-container{
         margin-bottom: 20px;
-        position:sticky;
-        top:0;
+        position:fixed;
         z-index:10;
-        width:100%;
       }
     }
     
@@ -20,7 +18,9 @@ body {
     justify-content: space-between;
     background-color: #101010;
     padding: 14px ;
-    width:100%;
+    position:fixed;
+    z-index:10;
+    width:calc(100% - 260px);
     
   }
   .topbar1 .prev-next-buttons button {
