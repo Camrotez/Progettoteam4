@@ -146,7 +146,11 @@
     border: none;
     
   }
-  @media screen and (max-width: 820px) {
+  .fixing{
+   flex: 1;
+  }
+
+  @media screen and (max-width: 820px) and (min-width: 300px) {
     .buttonInner {
       justify-content: center;
     }
@@ -203,7 +207,11 @@
       display: block;
       margin-left: 1rem;
     }
+    .fixing{
+    
+    }
   }
+  
   @media (max-width:1250px) {
     #big-title{
       font-size: 4rem;

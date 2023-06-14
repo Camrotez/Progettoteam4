@@ -156,7 +156,11 @@ body {
   border: none;
 }
 
-@media screen and (max-width: 820px) {
+.fixing {
+  flex: 1;
+}
+
+@media screen and (max-width: 820px) and (min-width: 300px) {
   .buttonInner {
     justify-content: center;
   }
