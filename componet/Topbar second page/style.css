@@ -158,9 +158,10 @@ body {
 
 .fixing {
   flex: 1;
+  padding-right: 2rem;
 }
 
-@media screen and (max-width: 820px) and (min-width: 300px) {
+@media screen and (max-width: 900px) {
   .buttonInner {
     justify-content: center;
   }
@@ -212,6 +213,10 @@ body {
   .share {
     display: block;
     margin-left: 1rem;
+  }
+  .fixing {
+    flex: 1;
+    display: flex;
   }
 }
 @media (max-width: 1250px) {
